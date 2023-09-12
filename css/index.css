@@ -7,7 +7,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
-
+/*style rules for the hero*/
 .hero-container{
     display:flex;
     width: 100%;
@@ -45,7 +45,7 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
-
+/*Navigation bar styles*/
 .nav-logo p {
     color: white;
     font-size: 40px;
@@ -76,4 +76,35 @@ body{
 
 .nav-logo{
     margin-left: 50px;
+}
+
+/*info container*/
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color:rgb(180, 126, 27);
+    padding: 50px;
+     
+}
+
+.info-image img {
+    background-color: grey;
+    width: 500px;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    
+}
+
+.info-header{
+    font-size: 40px;
+    font-weight: 900;
+}
+.text-content{
+    font-size: 25px;
 }
