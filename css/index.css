@@ -108,3 +108,32 @@ body{
 .text-content{
     font-size: 25px;
 }
+.more-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+    background-color: rgb(14, 40, 79);
+    color: white;
+}
+.camp-text{
+    text-align: center;
+    display: flex;
+    gap: 50px;
+}
+
+.camp-text span{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.download{
+    border: 2px solid white;
+    margin-left: 80px;
+    padding: 20px 50px;
+    align-self: center;
+    background-color: rgb(14, 40, 79);
+    color: white;
+    border-radius: 10px;
+}
